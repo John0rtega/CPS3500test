@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Flexbox: Task 4</title>
+    <style>
+      body {
+        background-color: #f5f5f5; /* Light gray background */
+        color: #333;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font */
+        padding: 2em;
+        margin: 0;
+      }
+
+      h1 {
+        text-align: center; /* Center the heading */
+      }
+
+      ul {
+        width: 100%; /* Adjusted width for responsiveness */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center items horizontally */
+      }
+
+      li {
+        background-color: #3498db; /* Blue background */
+        border: 2px solid #77a6b6;
+        border-radius: 0.5em;
+        color: #fff;
+        padding: 1em;
+        margin: 0.5em;
+        cursor: pointer; /* Add pointer cursor on hover */
+        transition: background-color 0.3s; /* Smooth transition */
+      }
+
+      li:hover {
+        background-color: #2980b9; /* Darker blue on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>John Ortega</h1>
+    <ul>
+      <li>Turnip</li>
+      <li>greens</li>
+      <li>yarrow</li>
+      <li>ricebean</li>
+      <li>rutabaga</li>
+      <li>endive</li>
+      <li>cauliflower</li>
+      <li>sea lettuce</li>
+      <li>kohlrabi</li>
+      <li>amaranth</li>
+    </ul>
+  </body>
+</html>
